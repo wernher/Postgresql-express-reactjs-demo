@@ -1,0 +1,24 @@
+{
+  "name": "postgres",
+  "version": "1.0.0",
+  "description": "Interaction between NodeJS+Express with PostgreSQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "test react_pg"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Postgresql-reactjs-wb"
+  },
+  "keywords": [
+    "react",
+    "postgres",
+    "api"
+  ],
+  "author": "wernher",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.11.5"
+  }
+}
