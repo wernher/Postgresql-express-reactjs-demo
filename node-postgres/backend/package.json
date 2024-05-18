@@ -1,4 +1,7 @@
 {
+"dependencies": {
+  "dotenv": "^16.0.3"
+  },
   "name": "postgres",
   "version": "1.0.0",
   "description": "Interaction between NodeJS+Express with PostgreSQL",
@@ -22,3 +25,4 @@
     "pg": "^8.11.5"
   }
 }
+

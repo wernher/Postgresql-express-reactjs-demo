@@ -1,10 +1,15 @@
+const dotenv = require('dotenv').config()
+// console.log(process.env) // remove this after you've confirmed it is working
+
+
 const Pool = require('pg').Pool
+
 const pool = new Pool({
-  user: 'react_pg_user',
-  host: 'localhost',
-  database: 'react_backend_db',
-  password: 'notroot',
-  port: 8053,
+  user: `${process.env.DB_USER}`,
+  host: `${process.env.DB_HOST}`,
+  database: `${process.env.DB_NAME}`,
+  password: `${process.env.DB_CRED}`,
+  port: `${process.env.DB_PORT}`,
 });
 
 //get all merchants our database

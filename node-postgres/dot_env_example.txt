@@ -1,0 +1,12 @@
+# this is not the real .env file of this application
+# but it is an example for how to use the dotenv package
+#
+
+DB_USER="invisible_user"
+DB_CRED="invisible_user_password"
+DB_HOST="localhost"
+DB_PORT=9999
+
+# manual / guides are here: 
+# 		   https://github.com/motdotla/dotenv
+

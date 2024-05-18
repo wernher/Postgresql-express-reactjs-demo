@@ -1,4 +1,9 @@
 const express = require('express')
+
+// dotenv settings added
+// const dotenv = require('dotenv').config()
+// console.log(process.env) // remove this after you've confirmed it is working
+
 const merchant_model = require('./backend/merchantModel')
 const app = express()
 // const port = 5173
